@@ -4,7 +4,7 @@ h1{
 }
 
 body{
-  text-align: center;
+  text-align:center;
 }
 
 pre {
@@ -54,3 +54,26 @@ pre .garis-love::before {
   text-align: center;
   font-size: 18px;
 }
+ nav ul{
+   list-style:none;
+   padding:0;
+   margin:0;
+   background-color:grey;
+   overflow:hidden;
+ }
+ 
+  nav ul li{
+    float:left;
+  }
+  
+  nav ul li a{
+    display:block;
+    color:black;
+    text-decoration:none;
+    padding:12px 15px ;
+  }
+  
+  nav ul li a:hover{
+    background-color:#555;
+    
+  }
